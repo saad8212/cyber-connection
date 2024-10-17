@@ -1,0 +1,61 @@
+.popup{
+    display: none;
+  }
+  .main{
+    display: block;
+  }
+  @media screen and (max-width: 768px) {
+    .main{
+      display: none;
+    }
+  
+    .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background: rgba(0, 0, 0, 0.7); /* Overlay background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    display: block;
+    background: white;
+    padding: 0px;
+  
+    text-align: center;
+    width: 786px;
+    height: 1000px ;
+   
+  }
+  
+  .popupHeader  {
+    padding: 10px;
+    color: white;
+  }
+  .popupFooter{
+    padding: 20px;
+    color: white;
+    margin-top: 155px;
+  }
+  .logo {
+    width: 100%;
+  }
+  
+  .phone_number {
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+    
+  }
+  
+  .popup-link {
+    text-decoration: none;
+  }
+   
+  }
+  
+  
