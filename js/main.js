@@ -124,3 +124,7 @@
     
 })(jQuery);
 
+
+document.getElementById("whatsappButton").addEventListener("click", function() {
+    window.location.href = "https://wa.me/18555982158"; // WhatsApp number link
+  });
