@@ -126,5 +126,5 @@
 
 
 document.getElementById("whatsappButton").addEventListener("click", function() {
-    window.location.href = "https://wa.me/18888688345"; // WhatsApp number link
+    window.location.href = "https://wa.me/18883529206"; // WhatsApp number link
   });
